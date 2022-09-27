@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="IE"></parameter>
+	<test thread-count="5" name="Test">
+		<parameter name="URL" value="https://automationteststore.com/"></parameter>
+		<parameter name="LoginName" value="Rohit.Patil"></parameter>
+		<parameter name="Password" value="Rohit@123"></parameter>
+		<classes>
+			<class name="UI_Automation.FragranceProductCheckoutTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
